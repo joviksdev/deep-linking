@@ -1,0 +1,13 @@
+{
+	"applinks": {
+		"apps": [],
+		"details": [
+			{
+				"appID": "ng.bytelabs.watu",
+				"paths": [
+					"*"
+				]
+			}
+		]
+	}
+}
