@@ -7,8 +7,9 @@
 				],
 				"components": [
 					{
-						"/": "/",
-						"exclude": true
+						"/": "*",
+						"exclude": true,
+						"comment": "Matches any URL"
 					},
 					{
 						"/": "/verify-email/*",
