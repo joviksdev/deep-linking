@@ -9,7 +9,6 @@
 				"components": [
 					{
 						"/": "*",
-						"exclude": true,
 						"comment": "Matches any URL"
 					},
 					{
@@ -22,6 +21,11 @@
 					}
 				]
 			}
+		]
+	},
+	"webcredentials": {
+		"apps": [
+			"UDYHJ7F799.ng.bytelabs.watu"
 		]
 	}
 }
