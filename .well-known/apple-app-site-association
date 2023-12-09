@@ -1,11 +1,23 @@
 {
 	"applinks": {
-		"apps": [],
 		"details": [
 			{
-				"appID": "U5LPF73QV2.ng.bytelabs.watu",
-				"paths": [
-					"*"
+				"appIDs": [
+					"U5LPF73QV2.ng.bytelabs.watu"
+				],
+				"components": [
+					{
+						"/": "/",
+						"exclude": true
+					},
+					{
+						"/": "/verify-email/*",
+						"comment": "Matches any URL with a path that starts with /verify-email/."
+					},
+					{
+						"/": "/password-reset/*",
+						"comment": "Matches any URL with a path that starts with /password-reset/."
+					}
 				]
 			}
 		]
