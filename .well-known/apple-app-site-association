@@ -10,14 +10,6 @@
 					{
 						"/": "*",
 						"comment": "Matches any URL"
-					},
-					{
-						"/": "/verify-email/*",
-						"comment": "Matches any URL with a path that starts with /verify-email/."
-					},
-					{
-						"/": "/password-reset/*",
-						"comment": "Matches any URL with a path that starts with /password-reset/."
 					}
 				]
 			}
